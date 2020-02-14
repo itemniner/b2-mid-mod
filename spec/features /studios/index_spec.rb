@@ -26,9 +26,9 @@ RSpec.describe "On the index page", type: :feature do
 
       within "#studio-#{@studio_1.id}" do
         expect(page).to have_content(@studio_1.name)
-        expect(page).to have_content(@star_wars_1)
-        expect(page).to have_content(@star_wars_2)
-        expect(page).to have_content(@star_wars_3)
+        expect(page).to have_content(@star_wars_1.name)
+        expect(page).to have_content(@star_wars_2.name)
+        expect(page).to have_content(@star_wars_3.name)
       end
     end
   end
