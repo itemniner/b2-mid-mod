@@ -17,7 +17,7 @@ RSpec.describe "On the index page", type: :feature do
 
       MovieActor.create(movie: @rush_hour, actor: @jackie)
       MovieActor.create(movie: @shanghai, actor: @jackie)
-      MovieActor.create(movie: @madallion, actor: @jackie)
+      MovieActor.create(movie: @medallion, actor: @jackie)
     end
     
     it "see the actor name, age and a list of the names of movies theyre in" do
