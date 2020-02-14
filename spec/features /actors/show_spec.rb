@@ -29,5 +29,9 @@ RSpec.describe "On the index page", type: :feature do
       expect(page).to have_content(@shanghai.name)
       expect(page).to have_content(@medallion.name)
     end
+
+    it "see a unqiue list of all actors worked with" do
+      
+    end
   end
 end
